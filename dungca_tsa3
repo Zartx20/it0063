@@ -1,0 +1,236 @@
+<html lang="eng">
+    <head>
+        <meta charset="UTF 8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Dungca - TSA 3</title>
+    </head>
+    <body>
+        <center>
+        <form name="Pokemon">
+            <Label for = "Dex"> National Dex: </Label>
+            <input type="text" name="Dex" id ="Dex"> <br><br>
+            <input type="radio" name="Generation ">
+            <label for="Generation 1"> Generation 1 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 2"> Generation 2 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 3"> Generation 3 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 4"> Generation 4 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 5"> Generation 5 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 6"> Generation 6 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 7"> Generation 7 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 8"> Generation 8 </label>
+            <input type="radio" name="Generation ">
+            <label for="Generation 9"> Generation 9 </label> <br><br>
+
+            <Label for = "Pokemon Name"> Pokemon Name: </Label>
+            <input type="text" name="Pokemon Name">
+
+            <label for="file"> Image </label>
+            <input type="file" id="file" name="file"> <br> <br>
+
+            <Label for = "Type 1"> Type 1: </Label>
+            <select name="Type" id="Type 1">
+            <option value="- Elements -"></option>
+            <option value="Fighting"> Fighting </option>>
+            <option value="Psychic"> Psychic </option>
+            <option value="Poison"> Poison </option>
+            <option value="Dragon"> Dragon </option>
+            <option value="Ghost"> Ghost </option>
+            <option value="Dark"> Dark </option>
+            <option value="Ground"> Ground </option>
+            <option value="Fire"> Fire </option>
+            <option value="Fairy"> Fairy </option>
+            <option value="Water"> Water </option>
+            <option value="Flying"> Flying </option>
+            <option value="Normal"> Normal </option>
+            <option value="Rock"> Rock </option>
+            <option value="Electric"> Electric </option>
+            <option value="Bug"> Bug </option>
+            <option value="Grass"> Grass </option>
+            <option value="Ice"> Ice </option>
+            <option value="Steel"> Steel </option>
+            </select>
+            <Label for = "Type 2"> Type 2: </Label>
+            <select name="Type" id= "Type 2">
+            <option value="- Elements -"></option>
+            <option value="Fighting"> Fighting </option>>
+            <option value="Psychic"> Psychic </option>
+            <option value="Poison"> Poison </option>
+            <option value="Dragon"> Dragon </option>
+            <option value="Ghost"> Ghost </option>
+            <option value="Dark"> Dark </option>
+            <option value="Ground"> Ground </option>
+            <option value="Fire"> Fire </option>
+            <option value="Fairy"> Fairy </option>
+            <option value="Water"> Water </option>
+            <option value="Flying"> Flying </option>
+            <option value="Normal"> Normal </option>
+            <option value="Rock"> Rock </option>
+            <option value="Electric"> Electric </option>
+            <option value="Bug"> Bug </option>
+            <option value="Grass"> Grass </option>
+            <option value="Ice"> Ice </option>
+            <option value="Steel"> Steel </option> 
+             </select><br><br>
+
+            <Label for = "Evolves From"> Evolves From: </Label>
+            <input type="text" name="Evolves From" id ="Evolves From"> 
+
+            <Label for = "Evolves To"> Evolves To: </Label>
+            <input type="text" name="Evolves To" id ="Evolves To"> <br><br>
+
+            <Label for = "Nickname"> Nickname: </Label>
+            <input type="text" name="Nickname" id ="Nickname"> <br><br>
+
+            <label for="Birthday"> Birthday: </label>
+            <input type="date" name="Birthday" id="Birthday"> <br><br>
+            <input type="submit" name="submit" id="submit"> <br><br>
+        </form>
+        <table border="2" align="center">
+            <tr style="text-align: center;">
+                <th> National Dex</th>
+                <th> Generation</th>
+                <th> Pokemon Name</th>
+                <th> Images</th>
+                <th>Type 1</th>
+                <th>Type 2</th>
+                <th>Evolves From</th>
+                <th>Evolves To</th>
+                <th>Nickname</th>
+                <th>Birthday</th>
+            </tr>
+            <tr style="text-align: center;">
+                <td>12716</td>
+                <td>3</td>
+                <td>Renz Monarch</td>
+                <td><img src="pokemon me.jpg" alt="Renz MOnarch" height="100"></td>
+                <td bgcolor="mistyrose">Psychic</td>
+                <td bgcolor="darkkhaki">Dark</td>
+                <td>Renzy</td>
+                <td bgcolor="silver">RMonach</td>
+                <td>Ren</td>
+                <td>20/03/1997</td>
+            </tr>
+            <tr style="text-align: center;">
+                <td>0094</td>
+                <td>7</td>
+                <td>Gengar</td>
+                <td><img src="https://cdn.dribbble.com/users/580699/screenshots/2770498/media/fcf1192eb37a34217f50a1caf6be3aef.gif" 
+                alt="Gengar" height="100"></td>
+                <td bgcolor="violet">Ghost</td>
+                <td bgcolor="purple"><font color="white">Poison</font></td>
+                <td>Haunter</td>
+                <td bgcolor="gold"> Final Form </td>
+                <td> Gengen </td>
+                <td>20/08/2000</td>
+            </tr>
+                 <tr style="text-align: center;">
+                <td>0132</td>
+                <td>5</td>
+                <td>Ditto</td>
+                <td> <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3a260d00-eca0-426d-a366-94fa36bae31d/dfnl161-bc20c571-67cc-46c8-bc2c-3a3e436cd34d.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNhMjYwZDAwLWVjYTAtNDI2ZC1hMzY2LTk0ZmEzNmJhZTMxZFwvZGZubDE2MS1iYzIwYzU3MS02N2NjLTQ2YzgtYmMyYy0zYTNlNDM2Y2QzNGQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.ReoCtG-vR5QZkQIoC5RiL_6Upqd3S23xjGu5Ql8vYo8" 
+                alt="Ditto" height="100"></td>
+                <td bgcolor="gray" colspan="2"><font color="white"> Normal</font></td>
+                <td> - </td>
+                <td bgcolor="gold"> Final Form  </td>
+                <td> Doon </td>
+                <td> 13/05/2004</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0700</td>
+                    <td>6</td>
+                    <td>Sylveon</td>
+                    <td><img src="https://i.kym-cdn.com/photos/images/newsfeed/002/297/438/f68.gif" 
+                    alt="Sylveon" height="100"></td>
+                    <td bgcolor="pink" colspan="2"><font color="black">Fairy</font></td>
+                    <td>Evee</td>
+                    <td bgcolor="gold">Final Form </td>
+                    <td>Sylvie</td>
+                    <td>23/03/2005</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0034</td>
+                    <td>4</td>
+                    <td>Nidoking</td>
+                    <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/aa9d2b73-a2e7-4148-b638-2b258ffe7644/dfvlt4c-396a4ba9-2c37-42bb-b1f1-aadae138ab07.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2FhOWQyYjczLWEyZTctNDE0OC1iNjM4LTJiMjU4ZmZlNzY0NFwvZGZ2bHQ0Yy0zOTZhNGJhOS0yYzM3LTQyYmItYjFmMS1hYWRhZTEzOGFiMDcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.1lVV1YZgzteGL1qgu52ikSbEWjR1wA0f56w-hmPheWc"
+                    alt="Nidoking" height="100"></td>
+                    <td bgcolor="purple"><font color="white">Poison</font></td>
+                    <td bgcolor="pink">Fairy</td>
+                    <td>Nidorino</td>
+                    <td bgcolor="gold"> Final Form  </td>
+                    <td>kingNido</td>
+                    <td>12/02/2001</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0042</td>
+                    <td>4</td>
+                    <td>Golbat</td>
+                    <td><img src="http://graphics.tppcrpg.net/xy/normal/042M.gif" 
+                    alt="" height="100"></td>
+                    <td bgcolor="purple"><font color="white">Poison</font></td>
+                    <td bgcolor="skyblue">Flying</td>
+                    <td>Zubat</td>
+                    <td bgcolor="silver">Crobat</td>
+                    <td>Gobat</td>
+                    <td>06/06/2005</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0274</td>
+                    <td>3</td>
+                    <td>Seedot</td>
+                    <td><img src="https://pokemon-project.com/pokedex/img/sprite/XY/Animado/273.gif" 
+                    alt="Seedot" height="100"></td>
+                    <td bgcolor="gree" colspan="2">Grass</td>
+                    <td>-</td>
+                    <td bgcolor="silver">Nuzleaf</td>
+                    <td>Seedy</td>
+                    <td>25/06/2002</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0658</td>
+                    <td>7</td>
+                    <td>Greninja</td>
+                    <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e7c53456-d41f-4678-8528-cab485cfa26c/d7ds7dn-c8e456b3-f3b0-4229-b9a4-07a435b36824.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U3YzUzNDU2LWQ0MWYtNDY3OC04NTI4LWNhYjQ4NWNmYTI2Y1wvZDdkczdkbi1jOGU0NTZiMy1mM2IwLTQyMjktYjlhNC0wN2E0MzViMzY4MjQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7g4cLCjqmGNoRMLF-LT4mW7U-5m2MFmIFiNajZ_zXHU" 
+                    alt="Greninja" height="100"></td>
+                    <td bgcolor="blue"><font color="white">Water</font></td>
+                    <td bgcolor="darkkhaki"><font color="white">Dark</font></td>
+                    <td>Frogadier</td>
+                    <td bgcolor="gold"> Final Form </td>
+                    <td>Grenin</td>
+                    <td>12/05/2007</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0359</td>
+                    <td>3</td>
+                    <td>Absol</td>
+                    <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1d0f4a28-92c4-4446-a802-5e0860f6b8e4/d7uzhbv-06892750-81b0-4cb6-a630-a255675559ed.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFkMGY0YTI4LTkyYzQtNDQ0Ni1hODAyLTVlMDg2MGY2YjhlNFwvZDd1emhidi0wNjg5Mjc1MC04MWIwLTRjYjYtYTYzMC1hMjU1Njc1NTU5ZWQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.fOjpdGrSL9BlYhOCjDG4MvgTKSAZ9tHc5L2cUmGkw2Y" 
+                    alt="Absol" height="100"></td>
+                    <td bgcolor="darkkhaki" colspan="2"><font color="white">Dark</font></td>
+                    <td> - </td>
+                    <td bgcolor="gold">Final Form</td>
+                    <td>Sol</td>
+                    <td>21/02/1990</td>
+                </tr>
+                <tr style="text-align: center;">
+                    <td>0608</td>
+                    <td>5</td>
+                    <td>Lampent</td>
+                    <td><img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/5f4d7780-b20f-42c6-a3e4-517fe62cac70/d5actrz-d1d38ac8-0a5c-4608-9476-d0325cad5897.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzVmNGQ3NzgwLWIyMGYtNDJjNi1hM2U0LTUxN2ZlNjJjYWM3MFwvZDVhY3Ryei1kMWQzOGFjOC0wYTVjLTQ2MDgtOTQ3Ni1kMDMyNWNhZDU4OTcuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.XWiBjC0t9OeZjhmRI1I0JBjI9sChi4IYEoEt6y7TaME" 
+                    alt="Lampent" height="100"></td>
+                    <td bgcolor="red"><font color="white">Fire</font></td>
+                    <td bgcolor="violet">Ghost</td>
+                    <td>Litwick</td>
+                    <td bgcolor="silver">Chandelure</td>
+                    <td>Lampee</td>
+                    <td>28/01/1998</td>
+                </tr>
+        </table>
+    </center>
+    </body>
+</html>
