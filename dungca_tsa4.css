@@ -6,6 +6,8 @@ body{
     url("BG 5.jpg");
     width: 100vw;
     height: 100vh;
+    background-size:cover;
+    background-repeat: nor-repeat;
 }
 .h1{
     text-align: center;
