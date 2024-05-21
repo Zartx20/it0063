@@ -1,0 +1,562 @@
+@import url();
+*{
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0;
+}
+.container {
+   background-image: url(https://i.pinimg.com/originals/5f/10/13/5f1013ab1155f64c6174520c0980c048.gif);
+   display: flex;
+   justify-content: center;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   border: 10px whitesmoke;
+   border-style: groove;
+   padding: 20px;
+
+}
+
+.card{
+   background-image: url(https://i.pinimg.com/originals/2e/78/c7/2e78c79cebbd4632cd41546a3138013e.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card2{
+   background-image: url(https://i.pinimg.com/originals/62/d8/a1/62d8a12f185f7fabcb205cc2e3dbb018.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card3{
+   background-image: url(https://i.pinimg.com/originals/88/76/78/887678b2e5ad7345fb199563cb0ad0f2.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card4{
+   background-image: url(https://giffiles.alphacoders.com/194/19493.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card5{
+   background-image: url(https://i.pinimg.com/originals/5b/a6/a5/5ba6a538061b7b99b1f5e8bb7fa00f93.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card6{
+   background-image: url(https://64.media.tumblr.com/ee9e758b68c7ff7b6de21eb6cda8c4d5/4cbac044c06ec6bb-37/s500x750/014021fb92e98a6f5de7573c24710d9469722748.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card7{
+   background-image: url(https://64.media.tumblr.com/c08b5fa38ad7753f92f3cd1c3dd0a09b/tumblr_p6wizbh2lD1wu8diho1_500.gifv);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.card8{
+   background-image: url(https://i.pinimg.com/originals/74/d7/90/74d790bc689a37e06ed11a5517ac7369.gif);
+   text-align: center;
+   padding: 5px;
+   margin: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   display: inline-block;
+   width: 30%;
+   height: auto;
+   box-shadow: 5px 5px 5px black;
+}
+
+.pokemon {
+   height: 200px;
+   filter: drop-shadow(10px 10px 5px black); 
+   border-radius: 10px;
+}
+
+
+.background{
+   object-fit: cover;
+   align-content: center;
+   border-radius: 1rem;
+   background-position: center;
+   padding: 0px;
+   justify-content: center;
+
+}
+
+
+.details{
+padding: 0.8rem 0;
+border-radius: 1rem;
+border-top-left-radius: 0;
+border-top-right-radius: 0;
+background-color: rgb(182, 13, 13);
+border-radius: 0.8rem;
+box-shadow: 5px 5px 5px black;
+color: white;
+}
+
+.details2{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(3, 101, 16);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+  .details3{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(116, 176, 210);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+  .details4{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(91, 72, 43);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+  .details5{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(231, 216, 5);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+
+  .details6{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(39, 46, 126);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+  .details7{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(135, 40, 97);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+  .details8{
+   padding: 0.8rem 0;
+   border-radius: 1rem;
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+   background-color: rgb(227, 102, 194);
+   border-radius: 0.8rem;
+   box-shadow: 5px 5px 5px black;
+   color: white;
+  }
+
+
+.name{
+font-size: 40px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+font-style: normal;
+color: white;
+text-shadow: 1px 1px 5px black;
+}
+
+.type{
+font-size: 15px ;
+font-family:sans-serif;
+font-weight: bold;
+text-shadow: 1px 1px 5px black;
+}
+
+.grass{
+   background-color: rgb(46, 170, 62);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.elec{
+   background-color: rgb(243, 233, 98);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.fairy{
+   background-color: rgb(227, 137, 203);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.dark{
+   background-color: rgb(133, 110, 77);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+
+}
+
+.fire{
+   background-color: rgb(201, 62, 62);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+
+}
+
+.ice{
+   background-color: rgb(123, 193, 234);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.psyc{
+   background-color: rgb(210, 77, 157);
+   border-radius: 1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+
+}
+
+
+.water{
+   background-color: rgb(67, 76, 170);
+   border-radius:1rem;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 1.3rem;
+   margin: 0.5rem 0.5rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+
+}
+
+.equip{
+   background-color: rgb(182, 219, 125);
+   border-radius: 4px;
+   text-align: center;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 0.8rem;
+   margin: 0.3rem 0.3rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.release{
+   background-color: rgb(235, 135, 135);
+   border-radius: 4px;
+   text-align: center;
+   display: inline-block;
+   text-shadow: 1px 1px 5px black;
+   padding: 0.6rem 0.8rem;
+   margin: 0.3rem 0.3rem;
+   box-shadow: 5px 5px 5px black;
+   font-size: 15px ;
+   color: white;
+}
+
+.buttons{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.3rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(182, 13, 13);
+}
+
+.buttons2{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(3, 101, 16);
+}
+
+.buttons3{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(116, 176, 210);
+}
+
+.buttons4{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(91, 72, 43);
+}
+
+.buttons5{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(231, 216, 5);
+}
+
+.buttons6{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(39, 46, 126);
+}
+
+.buttons7{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(135, 40, 97);
+}
+
+.buttons8{
+   margin-top: 0rem;
+   text-align: center;
+   border: none;
+   font-size: 0.8rem;
+   border-radius: 0.6rem;
+   margin: 0.2rem 0.2rem;
+   color: whitesmoke;
+   transition: 0.5s ease;
+   background-color: rgb(227, 102, 194);
+}
+button:hover{
+   background-color: aqua;
+}
+
+.disc{
+   color: black;
+   background-color: rgb(182, 13, 13);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc2{
+   color: black;
+   background-color: rgb(3, 101, 16);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc3{
+   color: black;
+   background-color: rgb(116, 176, 210);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc4{
+   color: black;
+   background-color: rgb(91, 72, 43);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc5{
+   color: black;
+   background-color: rgb(231, 216, 5);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc6{
+   color: black;
+   background-color: rgb(39, 46, 126);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc7{
+   color: black;
+   background-color: rgb(135, 40, 97);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
+
+.disc8{
+   color: black;
+   background-color: rgb(227, 102, 194);
+   border-radius: 0.8rem;
+   text-shadow: 1px 1px 5px black;
+   font-size: 20px ;
+   padding: 0.3rem 0.3rem;
+   margin: 0.3rem 0.3rem;
+   color: white;
+}
