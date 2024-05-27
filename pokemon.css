@@ -1,0 +1,226 @@
+.container{
+    background-image: url(background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    height: 1100px;
+    width: 95vw;
+    border: 10px gray;
+    border-style: outset;
+    padding: 20px;
+}
+
+.name{
+    font-size: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-style: normal;
+    color: black;
+    text-shadow: 1px 1px 5px black;
+    display: none;
+}
+
+.cards{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    border-style: inherit;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 5px 5px 5px black;
+    transition: all 1s ease;
+    display: inline-block;
+}
+
+.cards:hover {
+    transform: scale(1.1);
+    box-shadow: 10px 10px 15px rgb(0, 0, 0); 
+    }
+
+.pokemon{
+    height: 200px;
+    filter: drop-shadow(10px 10px 5px black); 
+    border-radius: 10px;
+}
+
+.pokeball{
+    width: 100px;
+    display: none;
+}
+
+.eevee{
+    background-color: rgb(226, 151, 66);
+}
+
+.mew{
+    background-color: rgb(250, 212, 166);
+}
+
+.abra{
+    background-color: rgb(235, 221, 23);
+}
+
+.pikachu{
+    background-color: rgb(244, 248, 21);
+}
+
+.charmander{
+    background-color: orange;
+}
+
+.caterpie{
+    background-color: rgb(34, 218, 34);
+}
+
+.bullbasaur{
+    background-color: rgb(23, 146, 23);
+}
+
+.squirtle{
+    background-color: rgb(34, 216, 216);
+}
+
+.jigglypuff{
+    background-color: rgb(241, 183, 193);
+}
+
+.haunter{
+    background-color: rgb(154, 61, 241);
+}
+
+.venonat{
+    background-color: blueviolet;
+}
+
+.zubat{
+    background-color: rgb(73, 73, 238);
+}
+
+@media (max-width: 1133px) {
+
+.container{
+    background-image: url(background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg) ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+    height: 3000px;
+    width: 93vw;
+    border: 10px gray;
+    border-style: outset;
+    padding: 20px;
+}
+
+.cards{
+    text-align: center;
+    padding: 5px;
+    margin: 20px;
+    border-style: inherit;
+    border-radius: 10px;
+    display: flex; 
+    align-items: celnter; 
+    width: 980px;
+    height: 150px;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    display: flex;
+    transition: 0.5s ease;
+}
+
+.pokemon{
+    height: 150px;
+    filter: drop-shadow(10px 10px 5px black); 
+    border-radius: 10px;
+}
+
+.name{
+    font-size: 50px;
+    display: contents;
+    display: inline-block;
+    flex-grow: 1; 
+}
+
+.pokeball{
+    display: inline-block;
+}
+
+
+.cards:hover {
+    background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149737544.jpg?w=996&t=st=1716836964~exp=1716837564~hmac=4400886087e31edcae380786c2c2038ce3f4b12aeb49ebad4a04fee99a53f727);
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-size: cover;
+    }
+
+
+}
+
+@media (max-width: 749px) {
+    .container{
+        background-image: url(background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg) ;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-size: cover;
+        align-items: center;
+        height: 4300px;
+        width: 85vw;
+        border: 10px gray;
+        border-style: outset;
+        padding: 20px;
+    }
+    
+    .cards{
+        text-align: center;
+        padding: 5px;
+        margin: 20px;
+        border-style: inherit;
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+        box-shadow: 5px 5px 5px black;
+        display: inline-block;
+        transition: 0.5s ease;
+    }
+
+    .card:hover {
+        transform: scale(1.1); 
+        box-shadow: 10px 10px 15px rgb(0, 0, 0); 
+        }
+    
+    .pokemon{
+        height: 250px;
+        filter: drop-shadow(10px 10px 5px black); 
+        border-radius: 10px;
+    }
+
+    .name{
+        font-size: 35px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+        font-style: normal;
+        color: black;
+        text-shadow: 1px 1px 5px black;
+        display: contents;
+        text-align: center;
+    } 
+
+    .pokeball{
+        width: 65px;
+        display: none;
+    }
+
+    .cards:hover {
+        background-image: url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149737562.jpg?t=st=1716836964~exp=1716837564~hmac=4eab029115cebf531d2aae6de421fbfaa5d72e5a548048754e15398abd2ed322);
+        background-size: cover; 
+        background-repeat: no-repeat; 
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-size: cover;
+        }
+
+}
