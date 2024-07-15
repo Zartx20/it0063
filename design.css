@@ -1,0 +1,445 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white; 
+}
+
+body {
+    background-color: black; 
+}
+
+.list > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: rgb(0, 0, 1);
+    transition: 0.5s all ease;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding-right: 20px; 
+}
+
+.menu {
+    display: flex;
+}
+
+.head {
+    background-color: rgb(34, 59, 244);
+    color: rgb(0, 0, 0);
+    padding: 10px 0;
+    height: fit-content;
+    margin-bottom: 10px;
+}
+
+.list > a:hover {
+    color: rgb(197, 223, 28);
+    text-decoration: underline;
+}
+
+.home-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.home-img-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.home-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 40px rgba(6, 233, 254, 0.934);
+}
+
+.h-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 20px;
+    background-color: rgb(20, 20, 93); 
+    color: white; 
+    border-radius: 8px; 
+    margin-top: 20px; 
+    text-align: center; 
+}
+
+.greet, .name, .desc, .intro {
+    background-color: rgba(255, 255, 255, 0.1); 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    border-radius: 4px; 
+}
+
+.greet {
+    font-size: 2rem; 
+}
+
+.name {
+    font-size: 1.3rem; 
+    font-weight: bold; 
+}
+
+.desc {
+    font-size: 1.1rem; 
+}
+
+.intro {
+    font-size: 1rem; 
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.info-container {
+    background-color: #213e2c;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.info-desc {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    background-color: gray;
+}
+
+.info-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.about-img {
+    flex: 1; 
+    margin-right: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+.panda-img {
+    width: 100%; 
+    border-radius: 8px; 
+    box-shadow: 0 0 50px rgba(89, 116, 25, 0.825);
+}
+
+.about-text {
+    flex: 2;
+}
+
+.about-me, .about-desc, .prof {
+    text-align: center;
+    background-color: rgba(0, 128, 128, 0.333);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.Portfolio {
+    text-align: center;
+    padding: 20px;
+}
+
+.projects {
+    display: inline-block;
+    text-align: center; 
+    margin-bottom: 20px;
+    max-width: 300px; 
+    background-color: rgba(128, 0, 0, 0.671); 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.proj-img {
+    width: 100%;
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 8px; 
+}
+
+.port-head {
+    text-align: center;
+    max-width: 300px; 
+    background-color: rgba(128, 0, 0, 0.637); 
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px; 
+    text-align: center; 
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    top: -100%;
+    left: -100%;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 10%, rgba(255, 255, 255, 0.8) 30%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: flames 1.5s infinite linear;
+    transform: rotate(30deg);
+}
+
+@keyframes flames {
+    0% {
+        transform: rotate(0deg);
+        background-size: 30% 30%;
+        opacity: 0.4;
+    }
+    50% {
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-size: 30% 30%;
+        opacity: 0.4;
+    }
+}
+
+.button.flames {
+    background-image: linear-gradient(to right, #ff416c, #ff4b2b);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.button.flames:hover {
+    background-image: linear-gradient(to right, #ff4b2b, #ff416c);
+}
+
+
+.serv-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.serv-h {
+    text-align: center;
+}
+
+
+.serv-box .icon {
+    flex: 1;
+    max-width: 150px; 
+}
+
+.serv-box .icon img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+.serv-box .text {
+    flex: 3;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(0, 128, 255, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 30px; 
+    transition: background-color 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 10%, rgba(255, 255, 255, 0.8) 30%, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%);
+    animation: water 1.5s infinite linear;
+    transform: rotate(30deg);
+    z-index: -1;
+}
+
+@keyframes water {
+    0% {
+        transform: rotate(0deg);
+        background-size: 30% 30%;
+        opacity: 0.4;
+    }
+    50% {
+        background-size: 100% 100%;
+        opacity: 0.8;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-size: 30% 30%;
+        opacity: 0.4;
+    }
+}
+
+.contact {
+    text-align: center; 
+    padding: 20px;
+    background-color: rgba(29, 24, 96, 0.611); 
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact .cont-head {
+    margin-bottom: 20px;
+    background-color: rgba(128, 0, 0, 0.2); 
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.contact form .input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.contact form .input input {
+    width: calc(50% - 10px); 
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.contact form .btn {
+    padding: 12px 24px;
+    background-color: rgba(255, 0, 0, 0.8);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact form .btn:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.foot {
+    text-align: center; 
+    padding: 5px;
+    background-color: rgb(25, 39, 152);
+    color: white;
+}
+
+.foot .social-media {
+    margin-top: 10px; 
+}
+
+.foot .social-media a {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+.foot .social-media a img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.foot .copyright {
+    margin-top: 5px; 
+}
+
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+    .about-img {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
