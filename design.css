@@ -304,6 +304,11 @@ body {
     text-align: center;
 }
 
+.serv-box .text h3,
+.serv-box .text p {
+    text-align: center;
+}
+
 
 .btn {
     display: inline-block;
