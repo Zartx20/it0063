@@ -1,0 +1,52 @@
+body{
+   background-size: cover;
+   background-image: url(BG.jpg);
+}
+
+
+.title{
+    color: blue;
+    justify-content: left;
+    text-align: center;
+}
+.interface{
+    text-decoration: double;
+    text-align: center;
+    justify-content: center;
+}
+
+.logins{
+   display: center;
+   justify-content:center;
+   padding: 5px;
+   margin-left: 10px;
+   border-style: inherit;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px black; 
+   text-align: center;
+   background-color:white;
+}
+
+.user{
+
+}
+
+.pass{
+
+}
+
+.log{
+  background-color: aquamarine;
+  border-radius: 10%;
+}
+
+.forgot{
+   border: none;
+   background-color: white;
+   color: blueviolet;
+}
+
+.create{
+    background-color: rgb(14, 199, 85);
+    border-radius: 10%;
+}
