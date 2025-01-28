@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV with Theme Toggle</title>
+  <style>
+    :root {
+      --bg-color: #e3f2fd;
+      --text-color: #000000;
+      --accent-color: #0d47a1;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1, h2 {
+      color: var(--accent-color);
+    }
+
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+
+    .name-section {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .theme-toggle {
+      padding: 10px 20px;
+      background-color: var(--accent-color);
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .theme-toggle:hover {
+      background-color: #0a3c8b;
+    }
+
+    .profile-image {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 2px solid var(--accent-color);
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    @keyframes gradientShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <button class="theme-toggle" onclick="toggleTheme()">Switch Theme</button>
+    </div>
+
+    <div class="section name-section">
+      <img src="Profile Pic.jpg" alt="Profile Picture" class="profile-image" />
+      <div>
+        <h1>Renz Monarch B. Dungca</h1>
+        <p>Web Developer | Digital Artist | Business Analytics</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>About Me</h2>
+      <p>I am a passionate BSIT-BA  Student with 2 years of experience in building and designing websites.</p>
+    </div>
+
+    <div class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>IT0063</strong> - Advance Web Design</li>
+        <li><strong>IT0009</strong> - Data Management</li>
+        <li><strong>IT0011</strong> - Programming and Technologies</li>
+        <li><strong>IT0069</strong> - Fundamentals of Analytics</li>
+        <li><strong>IT0015</strong> - Networking 2</li>
+        <li><strong>CCS0101</strong> - Design Thinking</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p>Bachelor of Science in Information Technology - Far Eastern University Institute of Technology (2023-2025)</p>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>C++, Python</li>
+        <li>Business Analysis</li>
+        <li>Programmer</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Contact</h2>
+      <p>Email: 202312716@fit.edu.ph</p>
+      <p>Phone: 09603896722</p>
+    </div>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      const root = document.documentElement;
+      if (root.style.getPropertyValue('--bg-color') === '#e3f2fd') {
+        root.style.setProperty('--bg-color', '#000000'); // Dark Black
+        root.style.setProperty('--text-color', '#00ff00'); // Greenish Text
+        root.style.setProperty('--accent-color', '#00b300'); // Bright Green
+        document.body.style.backgroundImage = 'none';
+        document.body.style.animation = 'none';
+      } else {
+        root.style.setProperty('--bg-color', '#e3f2fd'); // Light Blue
+        root.style.setProperty('--text-color', '#000000');
+        root.style.setProperty('--accent-color', '#0d47a1'); // Blue
+        document.body.style.backgroundImage = 'none';
+        document.body.style.animation = 'none';
+      }
+    }
+  </script>
+</body>
+</html>
