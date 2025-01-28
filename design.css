@@ -1,0 +1,76 @@
+:root {
+    --bg-color: #e3f2fd;
+    --text-color: #000000;
+    --accent-color: #0d47a1;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: var(--accent-color);
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .name-section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .theme-toggle {
+    padding: 10px 20px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .theme-toggle:hover {
+    background-color: #0a3c8b;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--accent-color);
+  }
+  
+  .section {
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+  }
+  
+  .section-divider {
+    border-bottom: 2px solid var(--accent-color);
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
