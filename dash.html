@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Livestock Sales Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/regression/dist/regression.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🐄 Livestock Sales Dashboard</h1>
+    </header>
+
+    <div class="dashboard-container">
+        <!-- Bar Chart -->
+        <section class="chart-section">
+            <h2>📊 Bar Chart</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="barChart"></canvas>
+        </section>
+
+        <!-- Pie Chart -->
+        <section class="chart-section">
+            <h2>🥧 Pie Chart</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="pieChart"></canvas>
+        </section>
+
+        <!-- Line Chart -->
+        <section class="chart-section">
+            <h2>📈 Line Chart</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="lineChart"></canvas>
+        </section>
+
+        <!-- Scatter Plot -->
+        <section class="chart-section">
+            <h2>🔵 Scatter Plot</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="scatterChart"></canvas>
+        </section>
+
+        <!-- Bubble Chart -->
+        <section class="chart-section">
+            <h2>🔴 Bubble Chart</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="bubbleChart"></canvas>
+        </section>
+
+        <!-- Heat Map -->
+        <section class="chart-section">
+            <h2>🌡 Heat Map</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="heatMapChart"></canvas>
+        </section>
+
+        <!-- Forecast Chart -->
+        <section class="chart-section">
+            <h2>📉 Forecast with Confidence</h2>
+            <div class="chart-filters">
+                <label>🌍 Region: <select class="regionFilter"></select></label>
+                <label>🍗 Product: <select class="productFilter"></select></label>
+                <label>📅 Year: <select class="yearFilter"></select></label>
+            </div>
+            <canvas id="forecastChart"></canvas>
+        </section>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
